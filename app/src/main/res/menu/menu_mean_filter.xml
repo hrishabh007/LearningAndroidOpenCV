@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_3_3"
+        android:title="均值滤波3X3" />
+    <item
+        android:id="@+id/menu_9_9"
+        android:title="均值滤波9X9" />
+    <item
+        android:id="@+id/menu_12_12"
+        android:title="均值滤波12X12" />
+    <item
+        android:id="@+id/menu_salt_pepper_noise"
+        android:title="椒盐噪声+均值滤波9X9" />
+    <item
+        android:id="@+id/menu_gaussian_noise"
+        android:title="高斯噪声+均值滤波9X9" />
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:id="@+id/rg_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4邻域" />
+
+            <RadioButton
+                android:id="@+id/rb_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="8邻域" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cb_fixed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FLOODFILL_FIXED_RANGE" />
+
+        <CheckBox
+            android:id="@+id/cb_mask_only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FLOODFILL_MASK_ONLY" />
+
+        <EditText
+            android:id="@+id/et_scalar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="请输入需要填充的颜色值"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/without_blur_edge_detection"
+        android:title="直接Laplacian边缘检测" />
+    <item
+        android:id="@+id/with_blur_edge_detection"
+        android:title="高斯滤波后Laplacian边缘检测" />
+
+</menu>

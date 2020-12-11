@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dt_l1"
+        android:title="街区距离(DIST_L!)" />
+    <item
+        android:id="@+id/dt_l2"
+        android:title="欧式距离(DIST_L2)" />
+    <item
+        android:id="@+id/dt_c"
+        android:title="棋盘距离(DIST_C)" />
+</menu>

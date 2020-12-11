@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/connected_components"
+        android:title="基本连通域分析" />
+    <item
+        android:id="@+id/connected_components_with_algorithm_4_wu"
+        android:title="4连域 + Wu" />
+
+    <item
+        android:id="@+id/connected_components_with_algorithm_8_wu"
+        android:title="8连域 + Wu" />
+
+    <item
+        android:id="@+id/connected_components_with_algorithm_4_grana"
+        android:title="4连域 + Grana" />
+
+    <item
+        android:id="@+id/connected_components_with_algorithm_8_grana"
+        android:title="8连域 + Grana" />
+
+
+    <item
+        android:id="@+id/connected_components_with_stats_with_algorithm"
+        android:title="Stats + Algorithm" />
+</menu>

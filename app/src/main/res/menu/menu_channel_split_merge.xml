@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bgr"
+        android:title="BGR" />
+    <item
+        android:id="@+id/rgb"
+        android:title="RGB" />
+    <item
+        android:id="@+id/channel_b"
+        android:title="B通道" />
+    <item
+        android:id="@+id/channel_g"
+        android:title="G通道" />
+    <item
+        android:id="@+id/channel_r"
+        android:title="R通道" />
+
+    <item
+        android:id="@+id/B_G_zero"
+        android:title="B，G=zero" />
+
+    <item
+        android:id="@+id/B_R_zero"
+        android:title="B，R=zero" />
+
+    <item
+        android:id="@+id/G_R_zero"
+        android:title="G，R=zero" />
+
+    <item
+        android:id="@+id/switch_b_r"
+        android:title="B，R互换" />
+
+</menu>

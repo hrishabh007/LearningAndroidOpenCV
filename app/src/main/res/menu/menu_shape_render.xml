@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/line"
+        android:title="线条" />
+    <item
+        android:id="@+id/rectangle"
+        android:title="矩形" />
+    <item
+        android:id="@+id/poly"
+        android:title="多边形" />
+    <item
+        android:id="@+id/circle"
+        android:title="圆形" />
+    <item
+        android:id="@+id/ellipse"
+        android:title="椭圆" />
+    <item
+        android:id="@+id/text"
+        android:title="文字" />
+
+    <item
+        android:id="@+id/chinese_text"
+        android:title="中文文字" />
+</menu>

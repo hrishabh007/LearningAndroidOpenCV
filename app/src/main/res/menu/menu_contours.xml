@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/retr_external"
+        android:title="RETR_EXTERNAL" />
+    <item
+        android:id="@+id/retr_list"
+        android:title="RETR_LIST" />
+    <item
+        android:id="@+id/retr_ccomp"
+        android:title="RETR_CCOMP" />
+
+    <item
+        android:id="@+id/retr_tree"
+        android:title="RETR_TREE" />
+</menu>

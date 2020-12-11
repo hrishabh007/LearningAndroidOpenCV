@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/match_tm_sqdiff"
+        android:title="TM_SQDIFF" />
+    <item
+        android:id="@+id/match_tm_sqdiff_normed"
+        android:title="TM_SQDIFF_NORMED " />
+
+    <item
+        android:id="@+id/match_tm_ccorr"
+        android:title="TM_CCORR " />
+    <item
+        android:id="@+id/match_tm_ccorr_normed"
+        android:title="TM_CCORR_NORMED  " />
+
+    <item
+        android:id="@+id/match_tm_ccoeff"
+        android:title="TM_CCOEFF" />
+    <item
+        android:id="@+id/match_tm_ccoeff_normed"
+        android:title="TM_CCOEFF_NORMED" />
+
+</menu>

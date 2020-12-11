@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/IMREAD_UNCHANGED"
+        android:title="IMREAD_UNCHANGED" />
+    <item
+        android:id="@+id/IMREAD_GRAYSCALE"
+        android:title="IMREAD_GRAYSCALE" />
+    <item
+        android:id="@+id/IMREAD_COLOR"
+        android:title="IMREAD_COLOR" />
+    <item
+        android:id="@+id/IMREAD_ANYDEPTH"
+        android:title="IMREAD_ANYDEPTH" />
+    <item
+        android:id="@+id/IMREAD_ANYCOLOR"
+        android:title="IMREAD_ANYCOLOR" />
+    <item
+        android:id="@+id/IMREAD_LOAD_GDAL"
+        android:title="IMREAD_LOAD_GDAL" />
+    <item
+        android:id="@+id/IMREAD_REDUCED_GRAYSCALE_2"
+        android:title="IMREAD_REDUCED_GRAYSCALE_2" />
+    <item
+        android:id="@+id/IMREAD_REDUCED_COLOR_2"
+        android:title="IMREAD_REDUCED_COLOR_2" />
+    <item
+        android:id="@+id/IMREAD_REDUCED_GRAYSCALE_4"
+        android:title="IMREAD_REDUCED_GRAYSCALE_4" />
+    <item
+        android:id="@+id/IMREAD_REDUCED_COLOR_4"
+        android:title="IMREAD_REDUCED_COLOR_4" />
+    <item
+        android:id="@+id/IMREAD_REDUCED_GRAYSCALE_8"
+        android:title="IMREAD_REDUCED_GRAYSCALE_8" />
+    <item
+        android:id="@+id/IMREAD_REDUCED_COLOR_8"
+        android:title="IMREAD_REDUCED_COLOR_8" />
+    <item
+        android:id="@+id/IMREAD_IGNORE_ORIENTATION"
+        android:title="IMREAD_IGNORE_ORIENTATION" />
+</menu>

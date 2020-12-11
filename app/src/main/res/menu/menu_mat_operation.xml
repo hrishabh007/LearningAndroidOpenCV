@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bitwise_not"
+        android:title="bitwise_not" />
+    <item
+        android:id="@+id/bitwise_and"
+        android:title="bitwise_and" />
+    <item
+        android:id="@+id/bitwise_or"
+        android:title="bitwise_or" />
+    <item
+        android:id="@+id/bitwise_xor"
+        android:title="bitwise_xor" />
+
+    <item
+        android:id="@+id/add"
+        android:title="add" />
+
+    <item
+        android:id="@+id/subtract"
+        android:title="subtract" />
+
+    <item
+        android:id="@+id/multiply"
+        android:title="multiply" />
+
+    <item
+        android:id="@+id/divide"
+        android:title="divide" />
+
+    <item
+        android:id="@+id/addWeight"
+        android:title="addWeight" />
+</menu>

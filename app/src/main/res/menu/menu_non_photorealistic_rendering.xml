@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/photo_edge_preserving_normconv_filter"
+        android:title="边缘保留(Photo.NORMCONV_FILTER)" />
+    <item
+        android:id="@+id/photo_edge_preserving_recurs_filter"
+        android:title="边缘保留(Photo.RECURS_FILTER)" />
+    <item
+        android:id="@+id/photo_detail_enhance"
+        android:title="细节增强" />
+    <item
+        android:id="@+id/photo_pencil_sketch"
+        android:title="铅笔画素描" />
+    <item
+        android:id="@+id/photo_stylization"
+        android:title="风格化" />
+</menu>

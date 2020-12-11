@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/edge_detection_x"
+        android:title="X轴方向边缘检测" />
+    <item
+        android:id="@+id/edge_detection_y"
+        android:title="Y轴方向边缘检测" />
+
+    <item
+        android:id="@+id/edge_detection_x_y"
+        android:title="XY轴方向边缘检测合并" />
+
+    <item
+        android:id="@+id/edge_detection_xy"
+        android:title="从左上往后下方向边缘检测" />
+
+    <item
+        android:id="@+id/edge_detection_yx"
+        android:title="从右上往左下方向边缘检测" />
+
+</menu>

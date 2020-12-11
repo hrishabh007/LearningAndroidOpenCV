@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/low_canny_edge_detection"
+        android:title="低阈值Canny边缘检测" />
+    <item
+        android:id="@+id/high_canny_edge_detection"
+        android:title="高阈值Canny边缘检测" />
+    <item
+        android:id="@+id/blur_canny_edge_detection"
+        android:title="滤波后Canny边缘检测" />
+
+</menu>

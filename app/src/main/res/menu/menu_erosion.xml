@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/erosion_rect"
+        android:title="矩形结构体" />
+    <item
+        android:id="@+id/erosion_cross"
+        android:title="十字形结构体" />
+    <item
+        android:id="@+id/erosion_ellipse"
+        android:title="椭圆结构体" />
+
+</menu>

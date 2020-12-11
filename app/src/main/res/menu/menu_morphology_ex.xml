@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/morphology_open"
+        android:title="开操作" />
+    <item
+        android:id="@+id/morphology_close"
+        android:title="闭操作" />
+    <item
+        android:id="@+id/morphology_gradient"
+        android:title="形态学梯度" />
+    <item
+        android:id="@+id/morphology_top_hat"
+        android:title="顶帽操作" />
+    <item
+        android:id="@+id/morphology_black_hat"
+        android:title="黑帽操作" />
+    <item
+        android:id="@+id/morphology_hit_miss"
+        android:title="击中不击中" />
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filter_blur"
+        android:title="blur" />
+
+    <item
+        android:id="@+id/filter_emboss"
+        android:title="emboss" />
+    <item
+        android:id="@+id/filter_identity"
+        android:title="identity" />
+
+    <item
+        android:id="@+id/filter_outline"
+        android:title="outline" />
+
+    <item
+        android:id="@+id/filter_sharpen"
+        android:title="sharpen" />
+
+    <item
+        android:id="@+id/filter_left_sobel"
+        android:title="left sobel" />
+
+    <item
+        android:id="@+id/filter_right_sobel"
+        android:title="right sobel" />
+
+    <item
+        android:id="@+id/filter_top_sobel"
+        android:title="top sobel" />
+    <item
+        android:id="@+id/filter_bottom_sobel"
+        android:title="bottom sobel" />
+
+</menu>

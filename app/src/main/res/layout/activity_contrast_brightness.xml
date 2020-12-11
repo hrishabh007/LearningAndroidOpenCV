@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.8" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.9" />
+
+
+        <ImageView
+            android:id="@+id/iv_source"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
+            app:layout_constraintBottom_toBottomOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_brightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="亮度"
+            app:layout_constraintBottom_toBottomOf="@id/guideline_bottom"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/sb_brightness"
+            app:layout_constraintTop_toTopOf="@id/guideline" />
+
+        <TextView
+            android:id="@+id/tv_contrast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="对比度"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/sb_contrast"
+            app:layout_constraintTop_toTopOf="@id/guideline_bottom" />
+
+
+        <SeekBar
+            android:id="@+id/sb_brightness"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:max="255"
+            android:min="0"
+            app:layout_constraintBottom_toBottomOf="@+id/guideline_bottom"
+            app:layout_constraintLeft_toRightOf="@+id/tv_contrast"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline" />
+
+        <SeekBar
+            android:id="@+id/sb_contrast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:max="300"
+            android:min="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tv_contrast"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline_bottom" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

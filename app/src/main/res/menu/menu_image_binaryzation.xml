@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/binary"
+        android:title="THRESH_BINARY" />
+    <item
+        android:id="@+id/binary_inv"
+        android:title="THRESH_BINARY_INV" />
+    <item
+        android:id="@+id/trunc"
+        android:title="THRESH_TRUNC" />
+    <item
+        android:id="@+id/tozero"
+        android:title="THRESH_TOZERO" />
+    <item
+        android:id="@+id/tozero_inv"
+        android:title="THRESH_TOZERO_INV" />
+
+    <item
+        android:id="@+id/otsu"
+        android:title="THRESH_OTSU" />
+
+    <item
+        android:id="@+id/triangle"
+        android:title="THRESH_TRIANGLE" />
+
+    <item
+        android:id="@+id/otsu_binary_inv"
+        android:title="THRESH_OTSU | THRESH_BINARY_INV" />
+
+    <item
+        android:id="@+id/triangle_binary_inv"
+        android:title="THRESH_TRIANGLE | THRESH_BINARY_INV" />
+
+    <item
+        android:id="@+id/adaptive_mean"
+        android:title="ADAPTIVE_THRESH_MEAN_C" />
+
+    <item
+        android:id="@+id/adaptive_gaussian"
+        android:title="ADAPTIVE_THRESH_GAUSSIAN_C" />
+
+</menu>
